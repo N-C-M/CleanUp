@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".photorep"
+    android:background="@drawable/photorepmain">
+
+    <Button
+        android:id="@+id/btnrep"
+        android:layout_width="12dp"
+        android:layout_height="31dp"
+        android:background="@drawable/backbtn"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="40dp"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_marginTop="625dp"
+        android:layout_marginLeft="120dp"
+        android:layout_width="167dp"
+        android:layout_height="69dp"
+        android:background="@drawable/submitbtn"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="619dp" />
+
+</RelativeLayout>

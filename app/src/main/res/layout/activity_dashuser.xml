@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashuser"
+    android:background="@drawable/cusmain"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="30dp">
+
+            <Button
+                android:id="@+id/cs"
+                android:layout_width="141dp"
+                android:layout_height="180dp"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/collsche"
+                android:layout_gravity="bottom"/>
+
+            <Button
+                android:id="@+id/pic"
+                android:layout_width="141dp"
+                android:layout_height="160dp"
+                android:gravity="bottom"
+                android:layout_weight="1"
+                android:background="@drawable/photopic"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/volcln"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/volclnpic"
+                android:gravity="bottom" />
+
+            <Button
+                android:id="@+id/viewpt"
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/viewptpic"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:visibility="visible">
+
+            <Button
+                android:id="@+id/nbin"
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/nearbinpic"
+                android:gravity="bottom" />
+
+            <Button
+                android:id="@+id/disptip"
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/dispospic"
+                android:layout_gravity="bottom" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:padding="30dp"
+            android:visibility="visible">
+
+            <Button
+                android:layout_width="146dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="40dp"
+                android:layout_weight="1"
+                android:background="@drawable/splcln"
+                android:gravity="bottom" />
+
+            <Button
+                android:layout_width="141dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/reportpic"
+                android:layout_gravity="bottom" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
